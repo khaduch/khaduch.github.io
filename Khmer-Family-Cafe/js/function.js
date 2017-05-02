@@ -15,7 +15,7 @@ $(document).ready(function(){
 	    }, 2000, 'swing', function () {
 	        window.location.hash = target;
 	    });
-	if ( ( ".hamburger input" ).prop( "checked", true )) { 
+	if ( $( ".hamburger input" ).prop( "checked", true )) { 
 		// Uncheck the input
 		$( ".hamburger input" ).prop( "checked", false );
 	}

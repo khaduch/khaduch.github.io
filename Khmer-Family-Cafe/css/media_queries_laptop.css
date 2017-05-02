@@ -1,0 +1,99 @@
+/*Mobile Variables*/
+/*Tablet Variables*/
+/*Tablet View*/
+@media only screen and (min-width: 1024px) {
+  .intro, .dishes {
+    margin-bottom: 5%; }
+
+  .catering, .about {
+    margin-bottom: 0; }
+
+  header h1 {
+    font-size: 55px;
+    padding-top: 2%;
+    padding-right: 5%;
+    margin-left: 0; }
+
+  h2 {
+    font-size: 32px;
+    padding-top: 2%; }
+
+  li a {
+    font-size: 24px; }
+
+  p {
+    font-size: 21px;
+    padding-left: 5%;
+    padding-right: 5%; }
+
+  .intro {
+    margin-bottom: 10%; }
+    .intro p {
+      padding-left: 0; }
+
+  .carousel-cell {
+    -webkit-flex-direction: row; }
+    .carousel-cell img {
+      max-width: 50%;
+      height: 100%; }
+    .carousel-cell .carousel-text {
+      margin-right: 10%; }
+      .carousel-cell .carousel-text h3 {
+        font-size: 28px;
+        padding-right: 10%; }
+
+  .specials {
+    margin-bottom: 10%; }
+
+  .catering, .about {
+    display: flex; }
+    .catering h2, .about h2 {
+      padding-top: 25%; }
+    .catering p, .about p {
+      padding-top: 0;
+      padding-bottom: 25%; }
+    .catering img, .about img {
+      width: 50%;
+      height: 50%; }
+
+  h5 {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 0;
+    font-size: 22px; }
+
+  .contact h2 {
+    padding-left: 0; }
+
+  .parallax {
+    min-height: 700px; }
+
+  .google-maps {
+    position: relative;
+    padding-bottom: 65%;
+    overflow: hidden; }
+
+  .dishes h3 {
+    font-size: 23px;
+    width: 300px; }
+
+  .carousel-cell--height {
+    height: 500px; }
+
+  .row-reverse {
+    display: flex;
+    flex-direction: row-reverse; }
+
+  .contact-info {
+    margin-top: 0; }
+
+  .social {
+    margin-top: 25%; }
+
+  .about {
+    margin-bottom: 5%; } }
+@media only screen and (min-width: 1200px) {
+  .carousel-cell--height {
+    height: 600px; } }
+
+/*# sourceMappingURL=media_queries_laptop.css.map */

@@ -1,0 +1,194 @@
+/*Mobile Variables*/
+
+$font-size-H1-mobile: 35px;
+
+$font-size-H2-mobile: 25px;
+
+$font-size-H3-mobile: 23px;
+
+$font-size-P-mobile: 17px;
+
+$margin-left-mobile: 5%;
+
+$margin-right-mobile: 5%;
+
+$padding-top-mobile: 10%;
+
+$padding-bottom-H2-mobile: 5%;
+
+$padding-bottom-P-mobile: 20%;
+
+$padding-left-mobile: 5%;
+
+$padding-right-mobile: 5%;
+
+$margin-section-bottom: 20%;
+
+
+/*Tablet Variables*/
+
+$font-size-H1-tablet: 45px;
+
+$margin-left-tablet: 15%;
+
+$margin-right-tablet: 10%;
+
+$padding-top-tablet: 5%;
+
+$padding-bottom-tablet: 2%;
+
+$padding-right-tablet: 5%;
+
+
+
+
+
+
+
+
+
+/*Tablet View*/
+
+@media only screen and (min-width: 1024px) {
+
+	.intro, .dishes {
+		margin-bottom: 5%;
+	}
+
+	.catering, .about {
+		margin-bottom: 0;
+	}
+
+	header {
+		h1 {
+			font-size: 55px;
+			padding-top: 2%;
+			padding-right: 5%;
+			margin-left: 0;
+		}
+
+	}
+
+	h2 {
+		font-size: 32px;
+		padding-top: 2%;
+	}
+
+	li a {
+    	font-size: 24px;
+	}
+
+	p {
+		font-size: 21px;
+		padding-left: 5%;
+    	padding-right: 5%;
+	}
+
+	.intro {
+		margin-bottom: 10%;
+
+		p {
+			padding-left: 0;
+		}
+	}
+
+	.carousel-cell {
+		-webkit-flex-direction: row;
+		img {
+			max-width: 50%;
+			height: 100%;
+		}
+
+		.carousel-text {
+			margin-right: $margin-right-tablet;
+
+			h3 {
+				font-size: 28px;
+				padding-right: 10%;
+			}
+		}
+	}
+
+	.specials {
+		margin-bottom: 10%;
+	}
+
+	.catering, .about {
+
+		display: flex;
+
+		h2 {
+			padding-top: 25%;
+
+		}
+
+		p {
+			padding-top: 0;
+			padding-bottom: 25%;			
+		}
+
+		img {
+			width: 50%;
+    		height: 50%;
+		}
+	}
+
+	h5 {
+		width: 100%;
+		padding-top: 1%;
+		padding-bottom: 0;
+		font-size: 22px;
+	}
+
+	.contact {
+
+		 h2 {
+			padding-left: 0;
+		}		
+	}
+
+
+	.parallax {
+		min-height: 700px;
+	}
+
+	.google-maps {
+	    position: relative;
+	    padding-bottom: 65%; // This is the aspect ratio
+	    overflow: hidden;
+	}
+
+	.dishes {
+		h3 {
+			font-size: 23px;
+    		width: 300px;
+		}
+	}
+
+	.carousel-cell--height {
+		height: 500px;
+	}
+
+	.row-reverse {
+		display: flex; flex-direction: row-reverse; 
+	}
+
+	.contact-info {
+		margin-top: 0;
+	}
+
+	.social {
+		    margin-top: 25%;
+	}
+
+	.about {
+		margin-bottom: 5%;
+	}
+
+}
+
+@media only screen and (min-width: 1200px) {
+	.carousel-cell--height {
+		height: 600px;
+	}	
+}
